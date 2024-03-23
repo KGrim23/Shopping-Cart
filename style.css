@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae5e5;
+    
+}
+
+.about-page{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+p, h2, .faq{
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+/* Navigation Bar Styles */
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.logo, img{
+  display: flex;
+    width: 70px;
+    border: none;
+    border-radius: 50px;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: right;
+    font-size: 20px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.product-image {
+    width: 90%;
+    margin-bottom: 20px;
+}
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 20px;
+    color: #121e17;
+    margin-bottom: 20px;
+}
+.add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: #2a5f40;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* CART PAGE */
+
+/* Shopping Cart Card Container */
+.products-container {
+    width: 100%; /* Set your desired width */
+    background-color: #d7d0d0;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 0px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+  }
+  
+  /* Shopping Cart Card Header */
+  .product-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:  #333 1px solid;
+  }
+  
+  /* Shopping Cart Card Title */
+  .product-title{
+    font-size: 18px;
+    width: 45%;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Shopping Cart Card Price */
+  .price{
+    font-size: 16px;
+    width: 15%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .quantity{
+        font-size: 16px;
+        width: 30%;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+
+
+  /* Shopping Cart Card Total */
+  .total{
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 10%;
+    text-align: center;
+  }
+
+  .product ion-icon{
+    cursor: pointer;
+  }
+  .products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .products img {
+    width: 75px;
+  }
+
+  .product{
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width: 45%;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+    
+  }
+
+  .basketTotalTitle {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .basketTotal {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .shopping-cart-card-checkout-btn {
+    width: auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .clearBasket{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    padding: 50px;
+  }
+  
+ /* media query */
+ @media screen and (max-width: 377px) {
+  .logo, img{
+    display: flex;
+      width: 50px;
+      border: none;
+      border-radius: 50px;
+      margin-right: auto;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+
+  }
+ }
