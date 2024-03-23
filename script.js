@@ -36,6 +36,55 @@ let products = [
     price: 30.00,
     inCart: 0
    },
+   {
+    name: 'Mnadala Hoodies',
+    tag: 'white-hoodies',
+    price: 30.00,
+    inCart: 0
+   },
+   {
+    name: 'Lotus Hoodies',
+    tag: 'grey-hoodies',
+    price: 30.00,
+    inCart: 0
+   },
+   {
+    name: 'Lotus Love Tshirts',
+    tag: 'black-tshirts',
+    price: 20.00,
+    inCart: 0
+   },
+   {
+    name: 'Lotus Tshirts',
+    tag: 'white-tshirts',
+    price: 20.00,
+    inCart: 0
+   },
+   {
+    name: 'Lotus Tshirts',
+    tag: 'white-tshirts',
+    price: 20.00,
+    inCart: 0
+   },
+   {
+    name: 'Wedding Mugs',
+    tag: 'wedding mugs 1',
+    price: 15.00,
+    inCart: 0
+   },
+   {
+    name: 'Wedding Mugs',
+    tag: 'wedding mugs2',
+    price: 15.00,
+    inCart: 0
+   },
+   {
+    name: 'Wedding Mugs',
+    tag: 'wedding mugs3',
+    price: 15.00,
+    inCart: 0
+   },
+   
 
 ]
 for(let i = 0; i < carts.length; i++) {

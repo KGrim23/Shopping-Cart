@@ -1,9 +1,13 @@
+*{
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #eae5e5;
-    
 }
 
 .about-page{
@@ -23,10 +27,10 @@ p, h2, .faq{
 /* Navigation Bar Styles */
 h1{
     text-align: center;
+    margin: 30px;
 }
 
 h2{
-    text-align: center;
     font-size: 25px;
     font-weight: bold;
 
@@ -74,13 +78,17 @@ h2{
 }
 
 .product-image {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
+    box-shadow: 1px 2px #d4d1d1;
+    border: none;
 }
+
 .product-title {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .product-description {
     font-size: 16px;
     margin-bottom: 20px;
@@ -102,17 +110,16 @@ h2{
 
 /* CART PAGE */
 
+
 /* Shopping Cart Card Container */
 .products-container {
     width: 100%; /* Set your desired width */
-    background-color: #d7d0d0;
+    background-color: #0400000f;
     justify-content: space-around;
     border-radius: 8px;
     margin-top: 50px;
     padding: 0px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-
   }
   
   /* Shopping Cart Card Header */
@@ -244,5 +251,17 @@ h2{
     display: flex;
     flex-direction: column;
 
+  }
+
+  .cart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 10px;
+  }
+
+  .basket{
+    width: 20px;
   }
  }
