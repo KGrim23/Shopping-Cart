@@ -108,6 +108,27 @@ h2{
 }
 
 
+/* OPTIONS */
+.options-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+}
+
+.product-filter{
+  border: none;
+  background-color: #2a5f40;
+  color: whitesmoke;
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 70px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+
 /* CART PAGE */
 
 
@@ -133,7 +154,7 @@ h2{
   /* Shopping Cart Card Title */
   .product-title{
     font-size: 18px;
-    width: 45%;
+    width: 100%;
     font-weight: bold;
     margin-bottom: 10px;
   }

@@ -216,3 +216,25 @@ function clearBasket(){
 
 onLoadCartNumbers()
 displayCart()
+
+// PRODUCT FILTER
+// const buttons = document.querySelector('.product-filter');
+// const optionEl = document.querySelector('.options-btn');
+// const productContainer = document.querySelector('.container');
+
+// buttons.forEach((button) => {
+//   button.onclick = function () {
+//     const value = button.textContent;
+//     console.log(value);
+
+//   productContainer.forEach((container) => {
+//     container.style.display = "none"
+//   })
+//   if (container.getAttribute('data-filter') === value.toLowerCase() || value === "All") {
+//     container.style.display = "block"
+//   }
+
+//   }
+// })
+
+
