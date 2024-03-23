@@ -35,12 +35,12 @@ h2{
   display: flex;
     width: 70px;
     border: none;
-    border-radius: 50px;
     margin-right: auto;
+    padding-left: 10px;
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #040000;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ h2{
 
 .navbar a {
     float: right;
-    font-size: 20px;
+    font-size: 16px;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -160,7 +160,9 @@ h2{
     width: 10%;
     text-align: center;
   }
-
+  .cart{
+    color: rgb(83, 83, 221);
+  }
   .product ion-icon{
     cursor: pointer;
   }
