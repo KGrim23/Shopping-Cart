@@ -157,6 +157,14 @@ h2{
     width: 10%;
     text-align: center;
   }
+
+  .cart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 20px;
+  }
   
   .product ion-icon{
     cursor: pointer;
